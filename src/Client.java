@@ -11,6 +11,7 @@ public class Client {
 
         Socket serverSocket = new Socket(hostName, portNumber);
         PrintWriter out = new PrintWriter(serverSocket.getOutputStream(), true);
+
         BufferedReader in = new BufferedReader(new InputStreamReader(serverSocket.getInputStream()));
 
         String inPutLine = in.readLine();
