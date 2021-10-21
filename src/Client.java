@@ -4,6 +4,12 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+/**
+ * The client side...
+ *
+ * @author Jacob Hållberg (ens19jbg)
+ * @author Jesper Hållberg (id20jhg)
+ */
 public class Client {
     public static void main(String[] args) throws IOException {
         String hostName = args[0];
