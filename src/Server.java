@@ -5,7 +5,13 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class MyServer {
+/**
+ * The server side...
+ *
+ * @author Jacob Hållberg (ens19jbg)
+ * @author Jesper Hållberg (id20jhg)
+ */
+public class Server {
     public static void main(String[] args) throws IOException {
         int portNum = Integer.parseInt(args[0]);
 
